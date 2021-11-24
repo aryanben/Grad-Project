@@ -56,9 +56,10 @@
     <Analyzer Include="E:\Visual Studio\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\FireballScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\FireballScript.cs" />
+    <Compile Include="Assets\Scripts\MovingPlatform.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
