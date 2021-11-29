@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
+    public bool onGround;
     public float speed;
     public float jumpSpeed;
     public float dashSpeed; 
@@ -14,7 +15,9 @@ public class PlayerScript : MonoBehaviour
     Vector3 dashV;
     public ParticleSystem dashPE;
     public GameObject fireballPE;
+    public ParticleSystem footprintPE;
     public Transform spellSP;
+    public Transform footSP;
 
     Animator anim;
     private void Awake()
@@ -56,6 +59,16 @@ public class PlayerScript : MonoBehaviour
             anim.SetTrigger("fastSpell");
            
         }
+        //var emm = footprintPE.emission;
+        //if (onGround)
+        //{
+        //    emm.rateOverDistanceMultiplier = 0;
+        //}
+        //else 
+        //{
+        //    emm.rateOverDistanceMultiplier =1;
+        //}
+        
     }
     private void FixedUpdate()
     {
@@ -79,5 +92,30 @@ public class PlayerScript : MonoBehaviour
     {
         Instantiate(fireballPE, spellSP.position, transform.rotation);
 
+    }
+    public void FootPrint() 
+    {
+        Instantiate(footprintPE, footSP.position, transform.rotation);
+
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag=="Ground")
+        {
+            onGround = true;
+           // footprintPE.enableEmission = false;
+            footprintPE.Stop();
+          //  footprintPE.SetActive(false);
+        }
+    }
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            footprintPE.Play();
+           // footprintPE.enableEmission = true;
+           // footprintPE.SetActive(true);
+            onGround = false;
+        }
     }
 }
