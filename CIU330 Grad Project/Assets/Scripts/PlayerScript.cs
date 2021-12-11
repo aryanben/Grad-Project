@@ -18,10 +18,12 @@ public class PlayerScript : MonoBehaviour
     public ParticleSystem footprintPE;
     public Transform spellSP;
     public Transform footSP;
-
+    public float slowerFloat;
     Animator anim;
+    bool isShooting;
     private void Awake()
     {
+        isShooting = false;
         rb = GetComponent<Rigidbody>();
     }
     void Start()
@@ -34,12 +36,15 @@ public class PlayerScript : MonoBehaviour
     {
         mH = Input.GetAxis("Horizontal");
         mV = Input.GetAxis("Vertical");
-        rb.velocity = transform.TransformDirection(mH * speed, rb.velocity.y, mV * speed);
-
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (!isShooting)
         {
-            rb.AddForce(Vector3.up * jumpSpeed);
+            rb.velocity = transform.TransformDirection(mH * speed, rb.velocity.y, mV * speed);
         }
+       
+        
+       
+
+       
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
@@ -49,14 +54,48 @@ public class PlayerScript : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             anim.SetBool("isRunning",true);
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+
+                anim.SetTrigger("Jump");
+            }
         }
-         if (!Input.GetKey(KeyCode.W))
+        else
         {
             anim.SetBool("isRunning", false);
         }
+        if (Input.GetKey(KeyCode.S))
+        {
+            anim.SetBool("backRun", true);
+        }
+        else
+        {
+            anim.SetBool("backRun", false);
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            anim.SetBool("leftRun", true);
+        }
+        else
+        {
+            anim.SetBool("leftRun", false);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            anim.SetBool("rightRun", true);
+        }
+        else
+        {
+            anim.SetBool("rightRun", false);
+        }
+        // if (!Input.GetKey(KeyCode.W))
+        //{
+        //    anim.SetBool("isRunning", false);
+        //}
         if (Input.GetMouseButtonDown(0))
         {
             anim.SetTrigger("fastSpell");
+            isShooting = true;
            
         }
         //var emm = footprintPE.emission;
@@ -72,7 +111,12 @@ public class PlayerScript : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        
+        if(isShooting)
+        {
+            // rb.velocity.Set(rb.velocity.x* slowerFloat, rb.velocity.y * slowerFloat, rb.velocity.z * slowerFloat);
+            rb.velocity = rb.velocity * slowerFloat ;
+            // rb.velocity = Vector3.zero;
+        }
     }
     IEnumerator Dash() 
     {
@@ -91,7 +135,17 @@ public class PlayerScript : MonoBehaviour
     public void FireSpell() 
     {
         Instantiate(fireballPE, spellSP.position, transform.rotation);
-
+       
+    }
+    public void FireSpellEnd()
+    {
+       
+        isShooting = false;
+    }
+    public void JumpEvent()
+    {
+        print("jumped");
+        rb.AddForce(Vector3.up * jumpSpeed);
     }
     public void FootPrint() 
     {
