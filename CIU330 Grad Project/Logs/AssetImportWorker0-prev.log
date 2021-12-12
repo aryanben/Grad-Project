@@ -15,11 +15,11 @@ E:/Unity projects SSD/CIU330 project/Grad-Project/CIU330 Grad Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56338
+54733
 Successfully changed project path to: E:/Unity projects SSD/CIU330 project/Grad-Project/CIU330 Grad Project
 E:/Unity projects SSD/CIU330 project/Grad-Project/CIU330 Grad Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,781 +35,1409 @@ Initialize mono
 Mono path[0] = 'E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006527 seconds.
+Registered in 0.004940 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 34.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 41.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.211 seconds
+- Completed reload, in  3.029 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008316 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.796 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.4 MB.
-System memory in use after: 66.4 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1836.
-Total: 2.627300 ms (FindLiveObjects: 0.194600 ms CreateObjectMapping: 0.111500 ms MarkObjects: 2.174400 ms  DeleteObjects: 0.145300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Animations/mage run back.fbx
-  artifactKey: Guid(af126f27ca033bf4d9f34520c90012fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/mage run back.fbx using Guid(af126f27ca033bf4d9f34520c90012fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2d7de9180e261fd227684845e772ac') in 0.095288 seconds
-  Import took 0.098155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 317.166891 seconds.
-  path: Assets/Animations/Mage run left.fbx
-  artifactKey: Guid(dbff5931013982847b566a682d4bb24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Mage run left.fbx using Guid(dbff5931013982847b566a682d4bb24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5487aecb7e44fb1794fba195fd5760cd') in 0.015190 seconds
-  Import took 0.020064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Animations/Mage run right.fbx
-  artifactKey: Guid(34eaa9cb27660ef4b84926fe63f30339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Mage run right.fbx using Guid(34eaa9cb27660ef4b84926fe63f30339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43ee3940912de1cfc16de029e312c68') in 0.018825 seconds
-  Import took 0.023216 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010227 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.510 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.3 MB.
-System memory in use after: 66.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1839.
-Total: 2.079900 ms (FindLiveObjects: 0.146600 ms CreateObjectMapping: 0.038500 ms MarkObjects: 1.805300 ms  DeleteObjects: 0.088500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010261 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.513 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.4 MB.
-System memory in use after: 66.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1842.
-Total: 2.085700 ms (FindLiveObjects: 0.167700 ms CreateObjectMapping: 0.038800 ms MarkObjects: 1.827000 ms  DeleteObjects: 0.051300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 329.290451 seconds.
-  path: Assets/Animations/Spell fast.anim
-  artifactKey: Guid(8c220ffb5359b3f429b56be13efcf7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Spell fast.anim using Guid(8c220ffb5359b3f429b56be13efcf7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe02ee837cf76545fa4b6c2e00aa1ca4') in 0.083479 seconds
-  Import took 0.086915 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007878 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.341 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.4 MB.
-System memory in use after: 66.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1845.
-Total: 1.937000 ms (FindLiveObjects: 0.149100 ms CreateObjectMapping: 0.041400 ms MarkObjects: 1.656500 ms  DeleteObjects: 0.089000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 194.731195 seconds.
-  path: Assets/Animations/mixamo.com.anim
-  artifactKey: Guid(37178e28acdaf49488c59cf27f90303d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/mixamo.com.anim using Guid(37178e28acdaf49488c59cf27f90303d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10595770f4e8840b2a5a6b76144a48d') in 0.027938 seconds
-  Import took 0.031118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.843523 seconds.
-  path: Assets/Animations/Back Run.anim
-  artifactKey: Guid(37178e28acdaf49488c59cf27f90303d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Back Run.anim using Guid(37178e28acdaf49488c59cf27f90303d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb913fada02c6a82849cbb7b834916e3') in 0.020280 seconds
-  Import took 0.024916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.122465 seconds.
-  path: Assets/Animations/mixamo.com.anim
-  artifactKey: Guid(13c275d2b72e0bc45971c5a1e1f7d40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/mixamo.com.anim using Guid(13c275d2b72e0bc45971c5a1e1f7d40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a75b478dafe37ed79adac6a14d95058') in 0.012175 seconds
-  Import took 0.023206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.997442 seconds.
-  path: Assets/Animations/Right Run.anim
-  artifactKey: Guid(13c275d2b72e0bc45971c5a1e1f7d40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Right Run.anim using Guid(13c275d2b72e0bc45971c5a1e1f7d40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c00aa9d18a0e512f2114254a8e335b0') in 0.018773 seconds
-  Import took 0.022897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.397867 seconds.
-  path: Assets/Animations/mixamo.com.anim
-  artifactKey: Guid(a1e95bc5bf3bf424aadcfa0a378fe240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/mixamo.com.anim using Guid(a1e95bc5bf3bf424aadcfa0a378fe240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e0fc4ffa4da082a990461185485e2b') in 0.011437 seconds
-  Import took 0.015136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.745814 seconds.
-  path: Assets/Animations/Left Run.anim
-  artifactKey: Guid(a1e95bc5bf3bf424aadcfa0a378fe240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Left Run.anim using Guid(a1e95bc5bf3bf424aadcfa0a378fe240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51af308b75847ab7cf9800afe9e075ba') in 0.017230 seconds
-  Import took 0.021096 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007049 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.476 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.4 MB.
-System memory in use after: 66.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1848.
-Total: 2.076900 ms (FindLiveObjects: 0.139600 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.826200 ms  DeleteObjects: 0.067900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007311 seconds.
+Registered in 0.010626 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.473 seconds
+- Completed reload, in  2.156 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.4 MB.
+System memory in use after: 66.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1836.
+Total: 2.347500 ms (FindLiveObjects: 0.152800 ms CreateObjectMapping: 0.038900 ms MarkObjects: 2.048300 ms  DeleteObjects: 0.106700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/PlayerScript.cs
+  artifactKey: Guid(bb0442403b2686d48b2fecc5b445ba84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerScript.cs using Guid(bb0442403b2686d48b2fecc5b445ba84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1465b7886711e5b60910b96c2b9307d6') in 0.526930 seconds
+  Import took 0.530447 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007007 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.407 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.3 MB.
+System memory in use after: 66.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1839.
+Total: 2.249900 ms (FindLiveObjects: 0.147400 ms CreateObjectMapping: 0.042500 ms MarkObjects: 1.960800 ms  DeleteObjects: 0.097400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007893 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.426 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.3 MB.
+System memory in use after: 66.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1842.
+Total: 2.195100 ms (FindLiveObjects: 0.133800 ms CreateObjectMapping: 0.052000 ms MarkObjects: 1.916600 ms  DeleteObjects: 0.091900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006873 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.423 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.4 MB.
+System memory in use after: 66.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1845.
+Total: 2.137000 ms (FindLiveObjects: 0.154300 ms CreateObjectMapping: 0.041500 ms MarkObjects: 1.836900 ms  DeleteObjects: 0.103500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009975 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.510 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.4 MB.
+System memory in use after: 66.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1848.
+Total: 2.180900 ms (FindLiveObjects: 0.149200 ms CreateObjectMapping: 0.055700 ms MarkObjects: 1.877100 ms  DeleteObjects: 0.097800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007749 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.434 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 66.4 MB.
-System memory in use after: 66.5 MB.
+System memory in use after: 66.4 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1851.
-Total: 2.135300 ms (FindLiveObjects: 0.136200 ms CreateObjectMapping: 0.042900 ms MarkObjects: 1.862100 ms  DeleteObjects: 0.093300 ms)
+Total: 2.106600 ms (FindLiveObjects: 0.159500 ms CreateObjectMapping: 0.052700 ms MarkObjects: 1.800300 ms  DeleteObjects: 0.093400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 393.013543 seconds.
-  path: Assets/Animations/mage run back.fbx
-  artifactKey: Guid(af126f27ca033bf4d9f34520c90012fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/mage run back.fbx using Guid(af126f27ca033bf4d9f34520c90012fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d402f0120792d8c22493d62b872a670') in 0.057147 seconds
-  Import took 0.060849 seconds .
+  Time since last request: 605.303347 seconds.
+  path: Assets/VFX/WraithFireBall.prefab
+  artifactKey: Guid(cf5436ad185a90b42865a451195e7807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/WraithFireBall.prefab using Guid(cf5436ad185a90b42865a451195e7807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000d8e9cb28416a83f0b63d913729579') in 0.147152 seconds
+  Import took 0.149791 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007007 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.855 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.5 MB.
+System memory in use after: 69.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1861.
+Total: 2.232500 ms (FindLiveObjects: 0.224900 ms CreateObjectMapping: 0.052900 ms MarkObjects: 1.877100 ms  DeleteObjects: 0.074900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.116663 seconds.
-  path: Assets/Animations/mixamo.com.anim
-  artifactKey: Guid(28cea69d50630d447a86636d6a899bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/mixamo.com.anim using Guid(28cea69d50630d447a86636d6a899bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ec2e51bc19a3ed62673fe655700818') in 0.025562 seconds
-  Import took 0.029433 seconds .
+  Time since last request: 239.276608 seconds.
+  path: Assets/Models/Ch24_1001_Glossiness.png
+  artifactKey: Guid(377944ad6a6eaeb48a42ffefcd24973f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch24_1001_Glossiness.png using Guid(377944ad6a6eaeb48a42ffefcd24973f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59741b3673a432941dc89eb968504a15') in 0.260646 seconds
+  Import took 0.263708 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.118949 seconds.
-  path: Assets/Animations/Back Run.anim
-  artifactKey: Guid(28cea69d50630d447a86636d6a899bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Back Run.anim using Guid(28cea69d50630d447a86636d6a899bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e893169b02fc708ba9eb722056fe0f23') in 0.016546 seconds
-  Import took 0.020149 seconds .
+  Time since last request: 0.883455 seconds.
+  path: Assets/Models/Ch24_1001_Normal.png
+  artifactKey: Guid(5664c5a4116ff8345a34fde2907f3c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch24_1001_Normal.png using Guid(5664c5a4116ff8345a34fde2907f3c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123e1163bcd9bf33d6a02d464c8d9a48') in 0.039344 seconds
+  Import took 0.043521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.178415 seconds.
+  path: Assets/Models/Ch24_1001_Diffuse.png
+  artifactKey: Guid(7d8ad7512acc288428f5f976b8bf1f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch24_1001_Diffuse.png using Guid(7d8ad7512acc288428f5f976b8bf1f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4177fbb44a27b1ee8065b3bad83b287') in 0.026982 seconds
+  Import took 0.030322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000730 seconds.
+  path: Assets/Models/Ch24_1001_Diffuse.png
+  artifactKey: Guid(7d8ad7512acc288428f5f976b8bf1f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch24_1001_Diffuse.png using Guid(7d8ad7512acc288428f5f976b8bf1f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4177fbb44a27b1ee8065b3bad83b287') in 0.018015 seconds
+  Import took 0.021428 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009150 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.429 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.4 MB.
-System memory in use after: 66.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1854.
-Total: 2.035400 ms (FindLiveObjects: 0.148200 ms CreateObjectMapping: 0.040400 ms MarkObjects: 1.756000 ms  DeleteObjects: 0.089800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008769 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.527 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.4 MB.
-System memory in use after: 66.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1857.
-Total: 2.257100 ms (FindLiveObjects: 0.161400 ms CreateObjectMapping: 0.044500 ms MarkObjects: 1.962000 ms  DeleteObjects: 0.088400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008734 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.373 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.5 MB.
-System memory in use after: 66.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1860.
-Total: 4.016400 ms (FindLiveObjects: 0.408600 ms CreateObjectMapping: 0.166200 ms MarkObjects: 3.355700 ms  DeleteObjects: 0.083700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008956 seconds.
+Registered in 0.008450 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.528 seconds
+- Completed reload, in  1.531 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.5 MB.
-System memory in use after: 66.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1863.
-Total: 2.303000 ms (FindLiveObjects: 0.220000 ms CreateObjectMapping: 0.064300 ms MarkObjects: 1.940400 ms  DeleteObjects: 0.076900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009005 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.510 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.5 MB.
-System memory in use after: 66.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1866.
-Total: 2.168100 ms (FindLiveObjects: 0.197000 ms CreateObjectMapping: 0.057800 ms MarkObjects: 1.820900 ms  DeleteObjects: 0.091500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008537 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.356 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.5 MB.
-System memory in use after: 66.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1869.
-Total: 2.284300 ms (FindLiveObjects: 0.169700 ms CreateObjectMapping: 0.041700 ms MarkObjects: 2.001300 ms  DeleteObjects: 0.070400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008218 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.389 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.5 MB.
-System memory in use after: 66.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1872.
-Total: 2.048800 ms (FindLiveObjects: 0.169600 ms CreateObjectMapping: 0.040800 ms MarkObjects: 1.750200 ms  DeleteObjects: 0.087300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006724 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.227 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.5 MB.
-System memory in use after: 66.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1875.
-Total: 2.029100 ms (FindLiveObjects: 0.160100 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.738600 ms  DeleteObjects: 0.084200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010112 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.415 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.5 MB.
-System memory in use after: 66.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1878.
-Total: 2.239000 ms (FindLiveObjects: 0.149400 ms CreateObjectMapping: 0.040300 ms MarkObjects: 1.958500 ms  DeleteObjects: 0.089900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006768 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.329 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.5 MB.
-System memory in use after: 66.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1881.
-Total: 2.314700 ms (FindLiveObjects: 0.207100 ms CreateObjectMapping: 0.040700 ms MarkObjects: 1.974300 ms  DeleteObjects: 0.091800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006958 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.315 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.5 MB.
-System memory in use after: 66.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1884.
-Total: 2.250700 ms (FindLiveObjects: 0.166900 ms CreateObjectMapping: 0.073900 ms MarkObjects: 1.946300 ms  DeleteObjects: 0.062900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010963 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.347 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.5 MB.
-System memory in use after: 66.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1887.
-Total: 2.228300 ms (FindLiveObjects: 0.152200 ms CreateObjectMapping: 0.039200 ms MarkObjects: 1.921000 ms  DeleteObjects: 0.114700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1089.326064 seconds.
-  path: Assets/Materials/Textures/marble-speckled-albedo.png
-  artifactKey: Guid(02df2bd8bff877948b09995cd0aad79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/marble-speckled-albedo.png using Guid(02df2bd8bff877948b09995cd0aad79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177d7a98f5e6ad2cab77400087621466') in 0.430822 seconds
-  Import took 0.433938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002611 seconds.
-  path: Assets/Materials/Textures/marble-speckled-albedo.png
-  artifactKey: Guid(02df2bd8bff877948b09995cd0aad79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/marble-speckled-albedo.png using Guid(02df2bd8bff877948b09995cd0aad79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177d7a98f5e6ad2cab77400087621466') in 0.023064 seconds
-  Import took 0.026849 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010703 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.963 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 69.6 MB.
 System memory in use after: 69.6 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1896.
-Total: 4.422200 ms (FindLiveObjects: 0.235800 ms CreateObjectMapping: 0.091200 ms MarkObjects: 3.978900 ms  DeleteObjects: 0.113900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.139293 seconds.
-  path: Assets/Fireball smallPE.png
-  artifactKey: Guid(64eeeabc9641ace4bb7e89aff8b2e79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fireball smallPE.png using Guid(64eeeabc9641ace4bb7e89aff8b2e79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5935051e212a54664c3dffae84d91a9d') in 0.090391 seconds
-  Import took 0.093599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.405714 seconds.
-  path: Assets/VFX/footPrintPE.prefab
-  artifactKey: Guid(7047f1ff6835c274eb89750b6f6154a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/footPrintPE.prefab using Guid(7047f1ff6835c274eb89750b6f6154a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e5d859f959906f98dcdb268f1fc4ee') in 0.023363 seconds
-  Import took 0.026878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Materials/Materials/footprint.mat
-  artifactKey: Guid(6a49b4225fee09444ae9e0e8e67fbc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/footprint.mat using Guid(6a49b4225fee09444ae9e0e8e67fbc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b607e4185b54ac4147095b74207b77d') in 0.196747 seconds
-  Import took 0.200649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.910686 seconds.
-  path: Assets/VFX/WraithFireBall.prefab
-  artifactKey: Guid(cf5436ad185a90b42865a451195e7807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/WraithFireBall.prefab using Guid(cf5436ad185a90b42865a451195e7807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ce81a98ecfae575fb7b8a3235c5028') in 0.023729 seconds
-  Import took 0.026969 seconds .
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1867.
+Total: 2.337500 ms (FindLiveObjects: 0.178800 ms CreateObjectMapping: 0.040100 ms MarkObjects: 2.035800 ms  DeleteObjects: 0.081700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010901 seconds.
+Registered in 0.010798 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.939 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.8 MB.
-System memory in use after: 69.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1939.
-Total: 3.397300 ms (FindLiveObjects: 0.328500 ms CreateObjectMapping: 0.081300 ms MarkObjects: 2.921300 ms  DeleteObjects: 0.064900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008347 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.450 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.8 MB.
-System memory in use after: 69.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1942.
-Total: 2.658600 ms (FindLiveObjects: 0.235100 ms CreateObjectMapping: 0.051000 ms MarkObjects: 2.295800 ms  DeleteObjects: 0.075200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 959.276689 seconds.
-  path: Assets/Animations/mage jump.fbx
-  artifactKey: Guid(15bace9263fa60744bfda292e84dfa78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/mage jump.fbx using Guid(15bace9263fa60744bfda292e84dfa78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4242a5fcffd50a53267e8be3f14c10b7') in 0.043993 seconds
-  Import took 0.047962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.397857 seconds.
-  path: Assets/Animations/mixamo.com.anim
-  artifactKey: Guid(caad299be704ff848882aa9269137258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/mixamo.com.anim using Guid(caad299be704ff848882aa9269137258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6d15f7a8ffd5f0db7a21dc2d811b8e') in 0.021774 seconds
-  Import took 0.025378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.230672 seconds.
-  path: Assets/Animations/Jump.anim
-  artifactKey: Guid(caad299be704ff848882aa9269137258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Jump.anim using Guid(caad299be704ff848882aa9269137258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525334674f08f50c7d3f081a23e3a7c9') in 0.025310 seconds
-  Import took 0.028348 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007327 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.472 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.9 MB.
-System memory in use after: 70.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1945.
-Total: 2.342900 ms (FindLiveObjects: 0.229400 ms CreateObjectMapping: 0.049800 ms MarkObjects: 1.969100 ms  DeleteObjects: 0.093500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007622 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.454 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.9 MB.
-System memory in use after: 70.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1948.
-Total: 2.515200 ms (FindLiveObjects: 0.143400 ms CreateObjectMapping: 0.042300 ms MarkObjects: 2.230000 ms  DeleteObjects: 0.098100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011099 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.435 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.9 MB.
-System memory in use after: 70.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1951.
-Total: 2.049800 ms (FindLiveObjects: 0.151400 ms CreateObjectMapping: 0.043400 ms MarkObjects: 1.753900 ms  DeleteObjects: 0.100200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007111 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.472 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.9 MB.
-System memory in use after: 70.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1954.
-Total: 2.169400 ms (FindLiveObjects: 0.161500 ms CreateObjectMapping: 0.041500 ms MarkObjects: 1.870900 ms  DeleteObjects: 0.094700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009454 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.502 seconds
+- Completed reload, in  1.583 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.9 MB.
-System memory in use after: 70.0 MB.
+System memory in use before: 69.6 MB.
+System memory in use after: 69.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1957.
-Total: 2.665300 ms (FindLiveObjects: 0.237200 ms CreateObjectMapping: 0.060100 ms MarkObjects: 2.266600 ms  DeleteObjects: 0.099900 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1870.
+Total: 2.944700 ms (FindLiveObjects: 0.149300 ms CreateObjectMapping: 0.037100 ms MarkObjects: 2.674800 ms  DeleteObjects: 0.081800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008363 seconds.
+Registered in 0.028213 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.537 seconds
+- Completed reload, in  1.729 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.6 MB.
+System memory in use after: 69.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1873.
+Total: 2.776700 ms (FindLiveObjects: 0.221800 ms CreateObjectMapping: 0.047500 ms MarkObjects: 2.423400 ms  DeleteObjects: 0.082500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013276 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.552 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.9 MB.
-System memory in use after: 70.0 MB.
+System memory in use before: 69.6 MB.
+System memory in use after: 69.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1960.
-Total: 2.930600 ms (FindLiveObjects: 0.208100 ms CreateObjectMapping: 0.043500 ms MarkObjects: 2.572200 ms  DeleteObjects: 0.105600 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1876.
+Total: 3.429300 ms (FindLiveObjects: 0.187100 ms CreateObjectMapping: 0.065100 ms MarkObjects: 2.997300 ms  DeleteObjects: 0.177300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008659 seconds.
+Registered in 0.006588 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.564 seconds
+- Completed reload, in  1.374 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.9 MB.
-System memory in use after: 70.0 MB.
+System memory in use before: 69.6 MB.
+System memory in use after: 69.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1963.
-Total: 2.853700 ms (FindLiveObjects: 0.387800 ms CreateObjectMapping: 0.180900 ms MarkObjects: 2.194100 ms  DeleteObjects: 0.088800 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1879.
+Total: 2.803200 ms (FindLiveObjects: 0.337700 ms CreateObjectMapping: 0.103500 ms MarkObjects: 2.299000 ms  DeleteObjects: 0.061600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008437 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.243 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.6 MB.
+System memory in use after: 69.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1882.
+Total: 2.217500 ms (FindLiveObjects: 0.176400 ms CreateObjectMapping: 0.042800 ms MarkObjects: 1.898000 ms  DeleteObjects: 0.099400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 725.513553 seconds.
+  path: Assets/Materials/Materials/obsidian.sbsar
+  artifactKey: Guid(97fd39eef9c88fd4bb3ef132b2028359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/obsidian.sbsar using Guid(97fd39eef9c88fd4bb3ef132b2028359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809c7aa651a57739ae814eaaea063aa1') in 0.034454 seconds
+  Import took 0.037236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 289.661116 seconds.
+  path: Assets/Materials/Materials/Substance
+  artifactKey: Guid(f51b457311ebe5a41bc04b7601b27944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Substance using Guid(f51b457311ebe5a41bc04b7601b27944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa131707f311205fa10a61bba7850935') in 0.008687 seconds
+  Import took 0.013639 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011017 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 31.80 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.516 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.8 MB.
+System memory in use after: 70.9 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1898.
+Total: 2.643600 ms (FindLiveObjects: 0.153200 ms CreateObjectMapping: 0.043000 ms MarkObjects: 2.337700 ms  DeleteObjects: 0.108800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.431782 seconds.
+  path: Assets/Materials/Materials/obsidian.sbsar
+  artifactKey: Guid(97fd39eef9c88fd4bb3ef132b2028359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/obsidian.sbsar using Guid(97fd39eef9c88fd4bb3ef132b2028359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9489cc302df7ccc66a9e264ec166e53c') in 0.614987 seconds
+  Import took 0.618243 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011462 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.506 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.2 MB.
+System memory in use after: 71.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1941.
+Total: 3.100900 ms (FindLiveObjects: 0.156100 ms CreateObjectMapping: 0.039400 ms MarkObjects: 2.814400 ms  DeleteObjects: 0.090200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 706.006193 seconds.
+  path: Assets/Animations/Warrok
+  artifactKey: Guid(2f77cb0dc292f8d4fac52ec952921244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok using Guid(2f77cb0dc292f8d4fac52ec952921244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2ad542f34e5bc643487f2c43706c3d') in 0.014779 seconds
+  Import took 0.018842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 219.750362 seconds.
+  path: Assets/Animations/Warrok/warrok_w_kurniawan@Unarmed Idle.fbx
+  artifactKey: Guid(fd8f1e5b78a7cea4fae448efbcb26127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/warrok_w_kurniawan@Unarmed Idle.fbx using Guid(fd8f1e5b78a7cea4fae448efbcb26127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167a2c70092c3ae4c7c077d2967090fd') in 0.478204 seconds
+  Import took 0.481420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3000.442144 seconds.
+  path: Assets/Animations/Warrok/Warrok model.fbx
+  artifactKey: Guid(9b30518cc6a30b94da704ed283d3c47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Warrok model.fbx using Guid(9b30518cc6a30b94da704ed283d3c47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7829152c5aba00087b54b0cacbdabf') in 0.057429 seconds
+  Import took 0.061639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.863418 seconds.
+  path: Assets/Animations/Warrok/Warrok model.fbx
+  artifactKey: Guid(9b30518cc6a30b94da704ed283d3c47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Warrok model.fbx using Guid(9b30518cc6a30b94da704ed283d3c47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e81a50d378b7be7e29a520a912f41b') in 0.086042 seconds
+  Import took 0.090168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.095907 seconds.
+  path: Assets/Animations/Warrok/Warrok model.fbx
+  artifactKey: Guid(9b30518cc6a30b94da704ed283d3c47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Warrok model.fbx using Guid(9b30518cc6a30b94da704ed283d3c47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104a65f16c2cdb3e0269dc27a72f66f2') in 0.046038 seconds
+  Import took 0.050053 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013729 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.947 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 85.0 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1950.
+Total: 2.969100 ms (FindLiveObjects: 0.156000 ms CreateObjectMapping: 0.047800 ms MarkObjects: 2.585000 ms  DeleteObjects: 0.178500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015275 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.547 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.65 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 85.0 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1953.
+Total: 3.793000 ms (FindLiveObjects: 0.293900 ms CreateObjectMapping: 0.096300 ms MarkObjects: 3.244300 ms  DeleteObjects: 0.077200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 182.254595 seconds.
+  path: Assets/Scripts/WarrokScript.cs
+  artifactKey: Guid(205b3ca59ac1d3d4cb5cae06cdee8067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WarrokScript.cs using Guid(205b3ca59ac1d3d4cb5cae06cdee8067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adf9decd757f6f29c747253c4b95f1a') in 0.012636 seconds
+  Import took 0.016185 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011519 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.589 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 85.0 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1956.
+Total: 2.279800 ms (FindLiveObjects: 0.155000 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.981400 ms  DeleteObjects: 0.100800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012841 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.316 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 85.0 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1959.
+Total: 2.371800 ms (FindLiveObjects: 0.162900 ms CreateObjectMapping: 0.041300 ms MarkObjects: 2.068300 ms  DeleteObjects: 0.098200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.868306 seconds.
+  path: Assets/Scripts/WarrokScript.cs
+  artifactKey: Guid(205b3ca59ac1d3d4cb5cae06cdee8067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WarrokScript.cs using Guid(205b3ca59ac1d3d4cb5cae06cdee8067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6444097298d6b1278771148a940f91d1') in 0.005407 seconds
+  Import took 0.008057 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011467 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.352 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 85.0 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1962.
+Total: 2.592600 ms (FindLiveObjects: 0.163300 ms CreateObjectMapping: 0.038100 ms MarkObjects: 2.268600 ms  DeleteObjects: 0.121500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 406.932425 seconds.
+  path: Assets/Prefabs/Warrok model.prefab
+  artifactKey: Guid(1fc49462b9cd21d44be9bf4f5d246083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Warrok model.prefab using Guid(1fc49462b9cd21d44be9bf4f5d246083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b6e67f66ca35529c58f0f4fdd8d4f2') in 0.113669 seconds
+  Import took 0.116940 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010059 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.444 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1966.
+Total: 2.520500 ms (FindLiveObjects: 0.150800 ms CreateObjectMapping: 0.042700 ms MarkObjects: 2.215200 ms  DeleteObjects: 0.110800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010763 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.398 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1969.
+Total: 2.815500 ms (FindLiveObjects: 0.149100 ms CreateObjectMapping: 0.046600 ms MarkObjects: 2.552900 ms  DeleteObjects: 0.065500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012191 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.348 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1972.
+Total: 2.292200 ms (FindLiveObjects: 0.164700 ms CreateObjectMapping: 0.047500 ms MarkObjects: 1.977800 ms  DeleteObjects: 0.101400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012129 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.497 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1975.
+Total: 2.478000 ms (FindLiveObjects: 0.146000 ms CreateObjectMapping: 0.054700 ms MarkObjects: 2.195100 ms  DeleteObjects: 0.081400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013309 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.598 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1978.
+Total: 2.604600 ms (FindLiveObjects: 0.166100 ms CreateObjectMapping: 0.044200 ms MarkObjects: 2.293300 ms  DeleteObjects: 0.100000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 415.476218 seconds.
+  path: Assets/Animations/Warrok/Textures and model
+  artifactKey: Guid(77087a368bf30ff4687c694f0e2dbe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Textures and model using Guid(77087a368bf30ff4687c694f0e2dbe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5e487570fb07964fe6a69c31d2ef0f') in 0.013233 seconds
+  Import took 0.017039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.114462 seconds.
+  path: Assets/Animations/Warrok/Warrock anim.controller
+  artifactKey: Guid(8d62fabf70cd76146babd7c7d7d946e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Warrock anim.controller using Guid(8d62fabf70cd76146babd7c7d7d946e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a03834a1662d35c4d08e572f09149c') in 0.055314 seconds
+  Import took 0.059753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.026813 seconds.
+  path: Assets/Animations/Warrok/Animations
+  artifactKey: Guid(640116b455e80e741aeeb733a1c05122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Animations using Guid(640116b455e80e741aeeb733a1c05122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b629215bc6e98e984a1abf3755b259') in 0.008611 seconds
+  Import took 0.038540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.080796 seconds.
+  path: Assets/Animations/Warrok/Animations/Warrok right strafe.fbx
+  artifactKey: Guid(891d79cd1c364944eb979c330bb16fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Animations/Warrok right strafe.fbx using Guid(891d79cd1c364944eb979c330bb16fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59b3c1b7f45f900c1dc641692f08b65') in 0.024056 seconds
+  Import took 0.027842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010173 seconds.
+  path: Assets/Animations/Warrok/Animations/Warrok right strafe.fbx
+  artifactKey: Guid(891d79cd1c364944eb979c330bb16fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Animations/Warrok right strafe.fbx using Guid(891d79cd1c364944eb979c330bb16fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59b3c1b7f45f900c1dc641692f08b65') in 0.011660 seconds
+  Import took 0.015718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.363197 seconds.
+  path: Assets/Animations/Warrok/Animations/mixamo.com.anim
+  artifactKey: Guid(585524dfac419cd46b9cbe2bf8144259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Animations/mixamo.com.anim using Guid(585524dfac419cd46b9cbe2bf8144259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65afebba6beda3204a71b926050c0c9') in 0.018976 seconds
+  Import took 0.023040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.374031 seconds.
+  path: Assets/Animations/Warrok/Animations/Warrock Right.anim
+  artifactKey: Guid(585524dfac419cd46b9cbe2bf8144259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Animations/Warrock Right.anim using Guid(585524dfac419cd46b9cbe2bf8144259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9badd2485624195aa83b122cf9b736e') in 0.021117 seconds
+  Import took 0.026430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.470918 seconds.
+  path: Assets/Animations/Warrok/Animations/Warrok strafe left.fbx
+  artifactKey: Guid(7120f66a3fa049e419d5eb78ea60ece6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Animations/Warrok strafe left.fbx using Guid(7120f66a3fa049e419d5eb78ea60ece6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9e30bbbc95ea7313971927d4cede83') in 0.015223 seconds
+  Import took 0.019273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001575 seconds.
+  path: Assets/Animations/Warrok/Animations/Warrok strafe left.fbx
+  artifactKey: Guid(7120f66a3fa049e419d5eb78ea60ece6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Animations/Warrok strafe left.fbx using Guid(7120f66a3fa049e419d5eb78ea60ece6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9e30bbbc95ea7313971927d4cede83') in 0.010461 seconds
+  Import took 0.014133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.473102 seconds.
+  path: Assets/Animations/Warrok/Animations/mixamo.com.anim
+  artifactKey: Guid(5d01186e806a46c49bc5c6e1efc62be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Animations/mixamo.com.anim using Guid(5d01186e806a46c49bc5c6e1efc62be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b557888d7853962a500c1a2cac70c2d5') in 0.010988 seconds
+  Import took 0.014707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.646205 seconds.
+  path: Assets/Animations/Warrok/Animations/Warrock Left.anim
+  artifactKey: Guid(5d01186e806a46c49bc5c6e1efc62be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Animations/Warrock Left.anim using Guid(5d01186e806a46c49bc5c6e1efc62be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401a63cee1633c64d01536fa7ab9856e') in 0.017706 seconds
+  Import took 0.021765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.375174 seconds.
+  path: Assets/Animations/Warrok/Animations/Warrok idle.fbx
+  artifactKey: Guid(eb4b7552267723040bab8586aa1ab6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Animations/Warrok idle.fbx using Guid(eb4b7552267723040bab8586aa1ab6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3be851751a5a5c058aeef471d2bdbc9') in 0.016131 seconds
+  Import took 0.020727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004546 seconds.
+  path: Assets/Animations/Warrok/Animations/Warrok idle.fbx
+  artifactKey: Guid(eb4b7552267723040bab8586aa1ab6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Animations/Warrok idle.fbx using Guid(eb4b7552267723040bab8586aa1ab6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3be851751a5a5c058aeef471d2bdbc9') in 0.009549 seconds
+  Import took 0.013804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.694343 seconds.
+  path: Assets/Animations/Warrok/Animations/mixamo.com.anim
+  artifactKey: Guid(6fa0d3edb710bc745a26f1ef58315f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Animations/mixamo.com.anim using Guid(6fa0d3edb710bc745a26f1ef58315f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da6c72163c02871c2476033f56e98e1') in 0.006137 seconds
+  Import took 0.009400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.999102 seconds.
+  path: Assets/Animations/Warrok/Animations/Warrock idle.anim
+  artifactKey: Guid(6fa0d3edb710bc745a26f1ef58315f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Animations/Warrock idle.anim using Guid(6fa0d3edb710bc745a26f1ef58315f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf1dff4250bb008fd10d98381bca450') in 0.013474 seconds
+  Import took 0.020032 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012496 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.613 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1981.
+Total: 2.832700 ms (FindLiveObjects: 0.167300 ms CreateObjectMapping: 0.087500 ms MarkObjects: 2.486600 ms  DeleteObjects: 0.090200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013977 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.627 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1984.
+Total: 2.596600 ms (FindLiveObjects: 0.184700 ms CreateObjectMapping: 0.056500 ms MarkObjects: 2.276800 ms  DeleteObjects: 0.077000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012073 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.621 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 2.464900 ms (FindLiveObjects: 0.174600 ms CreateObjectMapping: 0.053600 ms MarkObjects: 2.162600 ms  DeleteObjects: 0.073000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011181 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.292 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1990.
+Total: 2.929200 ms (FindLiveObjects: 0.162000 ms CreateObjectMapping: 0.050400 ms MarkObjects: 2.616600 ms  DeleteObjects: 0.099400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013664 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.351 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1993.
+Total: 2.730600 ms (FindLiveObjects: 0.214900 ms CreateObjectMapping: 0.050700 ms MarkObjects: 2.391500 ms  DeleteObjects: 0.072100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013022 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.419 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1996.
+Total: 2.537000 ms (FindLiveObjects: 0.193500 ms CreateObjectMapping: 0.082400 ms MarkObjects: 2.139400 ms  DeleteObjects: 0.120500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 438.669269 seconds.
+  path: Assets/Animations/Warrok/Animations/Warrok ball spell.fbx
+  artifactKey: Guid(a741e7e6bd3b66b4a98b4a95e625fcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Animations/Warrok ball spell.fbx using Guid(a741e7e6bd3b66b4a98b4a95e625fcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5845b88b84dd9b1922c8d33f602d8fd6') in 0.041198 seconds
+  Import took 0.045578 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011537 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.492 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1999.
+Total: 2.382600 ms (FindLiveObjects: 0.216900 ms CreateObjectMapping: 0.041300 ms MarkObjects: 2.016800 ms  DeleteObjects: 0.088500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010504 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.289 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2002.
+Total: 2.471500 ms (FindLiveObjects: 0.162800 ms CreateObjectMapping: 0.049300 ms MarkObjects: 2.158200 ms  DeleteObjects: 0.100400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012243 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.472 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2005.
+Total: 2.468600 ms (FindLiveObjects: 0.167300 ms CreateObjectMapping: 0.039700 ms MarkObjects: 2.156100 ms  DeleteObjects: 0.104700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 925.834074 seconds.
+  path: Assets/Animations/Warrok/Animations/mixamo.com.anim
+  artifactKey: Guid(c912bcd0ccca6f1468a9bc04babb77bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Animations/mixamo.com.anim using Guid(c912bcd0ccca6f1468a9bc04babb77bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0b2219cd19dc671c160fead186696b') in 0.044344 seconds
+  Import took 0.047920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.849130 seconds.
+  path: Assets/Animations/Warrok/Animations/Warrock shoot.anim
+  artifactKey: Guid(c912bcd0ccca6f1468a9bc04babb77bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Warrok/Animations/Warrock shoot.anim using Guid(c912bcd0ccca6f1468a9bc04babb77bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1020946ce02198d02bb6128090b2d518') in 0.027391 seconds
+  Import took 0.031025 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013816 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.522 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2008.
+Total: 3.374000 ms (FindLiveObjects: 0.192700 ms CreateObjectMapping: 0.051600 ms MarkObjects: 3.000800 ms  DeleteObjects: 0.100900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016301 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.554 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2011.
+Total: 2.727700 ms (FindLiveObjects: 0.191100 ms CreateObjectMapping: 0.045400 ms MarkObjects: 2.363900 ms  DeleteObjects: 0.126600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010445 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.477 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2014.
+Total: 3.552000 ms (FindLiveObjects: 0.166000 ms CreateObjectMapping: 0.039600 ms MarkObjects: 3.222000 ms  DeleteObjects: 0.123500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011816 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.483 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2017.
+Total: 2.387300 ms (FindLiveObjects: 0.169800 ms CreateObjectMapping: 0.042700 ms MarkObjects: 2.068900 ms  DeleteObjects: 0.105100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011212 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.506 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.55 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2020.
+Total: 3.121500 ms (FindLiveObjects: 0.268200 ms CreateObjectMapping: 0.048800 ms MarkObjects: 2.697300 ms  DeleteObjects: 0.106100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010767 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.319 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2023.
+Total: 2.440400 ms (FindLiveObjects: 0.169200 ms CreateObjectMapping: 0.047700 ms MarkObjects: 2.116300 ms  DeleteObjects: 0.106200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011656 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library E:/Unity projects SSD/Editor location path/2020.3.11f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.183 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2026.
+Total: 2.400900 ms (FindLiveObjects: 0.164600 ms CreateObjectMapping: 0.040300 ms MarkObjects: 2.092100 ms  DeleteObjects: 0.103100 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

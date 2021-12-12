@@ -17,6 +17,9 @@ public class WarrokScript : MonoBehaviour
     bool playerNear;
     bool shotReady;
     float playerNearTimer;
+
+    public Transform spellSP;
+    public GameObject spellGO;
     void Start()
     {
         leftP = true;
@@ -36,7 +39,7 @@ public class WarrokScript : MonoBehaviour
     void Update()
     {
         //transform.LookAt(player.transform.position);
-        if (Vector3.Distance(transform.position,player.transform.position)<activeRange)
+        if (Vector3.Distance(transform.position, player.transform.position) < activeRange)
         {
             playerNear = true;
         }
@@ -55,29 +58,34 @@ public class WarrokScript : MonoBehaviour
             else
             {
                 transform.LookAt(player.transform.position);
-                anim.SetBool("Shoot",true);
+                anim.SetBool("Shoot", true);
             }
             playerNearTimer += Time.deltaTime;
-            if (playerNearTimer>5)
+            if (playerNearTimer > 5)
             {
                 shotReady = true;
-                
+
             }
         }
     }
-    public void ShotEnd() 
+    public void SpellInstan()
+    {
+        GameObject temp = Instantiate(spellGO, spellSP.position, transform.rotation);
+        temp.transform.LookAt(player.transform);
+    }
+    public void ShotEnd()
     {
         anim.SetBool("Shoot", false);
         shotReady = false;
         playerNearTimer = 0;
         transform.rotation = Quaternion.identity;
     }
-    public void Patrol() 
+    public void Patrol()
     {
         if (leftP)
         {
             transform.position = Vector3.MoveTowards(transform.position, rightV, (speed * Time.deltaTime));
-           
+
             if (Vector3.Distance(transform.position, rightV) < 2)
             {
                 leftP = false;
@@ -89,7 +97,7 @@ public class WarrokScript : MonoBehaviour
         else
         {
             transform.position = Vector3.MoveTowards(transform.position, leftV, (speed * Time.deltaTime));
-            
+
             if (Vector3.Distance(transform.position, leftV) < 2)
             {
                 leftP = true;

@@ -14,6 +14,7 @@ public class PlayerScript : MonoBehaviour
     public float mV;
     Vector3 dashV;
     public ParticleSystem dashPE;
+    public ParticleSystem eSparkPE;
     public GameObject fireballPE;
     public ParticleSystem footprintPE;
     public Transform spellSP;
@@ -170,7 +171,13 @@ public class PlayerScript : MonoBehaviour
             footprintPE.Stop();
             //  footprintPE.SetActive(false);
         }
+        if (collision.gameObject.tag == "PlasmaBall")
+        {
+            eSparkPE.Play();
+        }
+
     }
+   
     private void OnCollisionExit(Collision collision)
     {
         if (collision.gameObject.tag == "Ground")
