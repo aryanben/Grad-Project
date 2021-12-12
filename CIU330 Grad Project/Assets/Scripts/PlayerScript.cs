@@ -7,8 +7,8 @@ public class PlayerScript : MonoBehaviour
     public bool onGround;
     public float speed;
     public float jumpSpeed;
-    public float dashSpeed; 
-    public float dashTime; 
+    public float dashSpeed;
+    public float dashTime;
     Rigidbody rb;
     public float mH;
     public float mV;
@@ -28,23 +28,32 @@ public class PlayerScript : MonoBehaviour
     }
     void Start()
     {
-        anim = GetComponent<Animator>();   
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        mH = Input.GetAxis("Horizontal");
         mV = Input.GetAxis("Vertical");
+
+        if (mV < 0.5f && mV > -0.5f)
+        {
+            mH = Input.GetAxis("Horizontal");
+        }
+        else
+        {
+            mH = 0;
+        }
+
         if (!isShooting)
         {
             rb.velocity = transform.TransformDirection(mH * speed, rb.velocity.y, mV * speed);
         }
-       
-        
-       
 
-       
+
+
+
+
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
@@ -53,7 +62,7 @@ public class PlayerScript : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.W))
         {
-            anim.SetBool("isRunning",true);
+            anim.SetBool("isRunning", true);
             if (Input.GetKeyDown(KeyCode.Space))
             {
 
@@ -96,7 +105,7 @@ public class PlayerScript : MonoBehaviour
         {
             anim.SetTrigger("fastSpell");
             isShooting = true;
-           
+
         }
         //var emm = footprintPE.emission;
         //if (onGround)
@@ -107,39 +116,39 @@ public class PlayerScript : MonoBehaviour
         //{
         //    emm.rateOverDistanceMultiplier =1;
         //}
-        
+
     }
     private void FixedUpdate()
     {
-        if(isShooting)
+        if (isShooting)
         {
             // rb.velocity.Set(rb.velocity.x* slowerFloat, rb.velocity.y * slowerFloat, rb.velocity.z * slowerFloat);
-            rb.velocity = rb.velocity * slowerFloat ;
+            rb.velocity = rb.velocity * slowerFloat;
             // rb.velocity = Vector3.zero;
         }
     }
-    IEnumerator Dash() 
+    IEnumerator Dash()
     {
         float startTime = Time.time;
         dashPE.Play();
-        while (Time.time<startTime+dashTime)
+        while (Time.time < startTime + dashTime)
         {
-            dashV = new Vector3(rb.velocity.x,0, rb.velocity.z);
+            dashV = new Vector3(rb.velocity.x, 0, rb.velocity.z);
             rb.AddForce(dashV * dashSpeed * Time.deltaTime);
-            
+
             yield return null;
         }
-    
-    
+
+
     }
-    public void FireSpell() 
+    public void FireSpell()
     {
         Instantiate(fireballPE, spellSP.position, transform.rotation);
-       
+
     }
     public void FireSpellEnd()
     {
-       
+
         isShooting = false;
     }
     public void JumpEvent()
@@ -147,19 +156,19 @@ public class PlayerScript : MonoBehaviour
         print("jumped");
         rb.AddForce(Vector3.up * jumpSpeed);
     }
-    public void FootPrint() 
+    public void FootPrint()
     {
         Instantiate(footprintPE, footSP.position, transform.rotation);
 
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag=="Ground")
+        if (collision.gameObject.tag == "Ground")
         {
             onGround = true;
-           // footprintPE.enableEmission = false;
+            // footprintPE.enableEmission = false;
             footprintPE.Stop();
-          //  footprintPE.SetActive(false);
+            //  footprintPE.SetActive(false);
         }
     }
     private void OnCollisionExit(Collision collision)
@@ -167,8 +176,8 @@ public class PlayerScript : MonoBehaviour
         if (collision.gameObject.tag == "Ground")
         {
             footprintPE.Play();
-           // footprintPE.enableEmission = true;
-           // footprintPE.SetActive(true);
+            // footprintPE.enableEmission = true;
+            // footprintPE.SetActive(true);
             onGround = false;
         }
     }
