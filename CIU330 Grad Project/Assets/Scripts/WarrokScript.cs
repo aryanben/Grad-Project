@@ -17,9 +17,10 @@ public class WarrokScript : MonoBehaviour
     bool playerNear;
     bool shotReady;
     float playerNearTimer;
-
+    public ParticleSystem fireSparks;
     public Transform spellSP;
     public GameObject spellGO;
+    bool initAnim;
     void Start()
     {
         leftP = true;
@@ -27,12 +28,13 @@ public class WarrokScript : MonoBehaviour
         playerNear = false;
         playerNear = false;
         shotReady = false;
+        initAnim = false;
 
         leftV = leftPoint.position;
         rightV = rightPoint.position;
         player = GameObject.FindGameObjectWithTag("Player");
         anim = GetComponent<Animator>();
-        anim.SetBool("Right", true);
+        anim.SetBool("Idle", true);
     }
 
     // Update is called once per frame
@@ -54,6 +56,23 @@ public class WarrokScript : MonoBehaviour
             if (!shotReady)
             {
                 Patrol();
+                if (!initAnim)
+                {
+                    if (leftP)
+                    {
+                        anim.SetBool("Left", false);
+                        anim.SetBool("Right", true);
+                        anim.SetBool("Idle", false);
+                    }
+                    else
+                    {
+                        anim.SetBool("Left", true);
+                        anim.SetBool("Right", false);
+                        anim.SetBool("Idle", false);
+                    }
+                    
+                    initAnim = true;
+                }
             }
             else
             {
@@ -66,6 +85,21 @@ public class WarrokScript : MonoBehaviour
                 shotReady = true;
 
             }
+        }
+        else
+        {
+            initAnim = false;
+            anim.SetBool("Left", false);
+            anim.SetBool("Right", false);
+            anim.SetBool("Idle", true);
+        }
+       
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "FireBall")
+        {
+            fireSparks.Play();
         }
     }
     public void SpellInstan()
@@ -82,6 +116,7 @@ public class WarrokScript : MonoBehaviour
     }
     public void Patrol()
     {
+       
         if (leftP)
         {
             transform.position = Vector3.MoveTowards(transform.position, rightV, (speed * Time.deltaTime));
