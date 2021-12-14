@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class PlayerScript : MonoBehaviour
     Vector3 dashV;
     public ParticleSystem dashPE;
     public ParticleSystem eSparkPE;
+    public ParticleSystem longSpellPE;
+    public ParticleSystem portalFirePE;
     public GameObject fireballPE;
     public ParticleSystem footprintPE;
     public Transform spellSP;
@@ -22,19 +25,26 @@ public class PlayerScript : MonoBehaviour
     public float slowerFloat;
     Animator anim;
     bool isShooting;
+    public int speckCount;
+    public int speckGoal;
+    public bool nearPortal;
+    public Text speckCountText;
     private void Awake()
     {
         isShooting = false;
+        nearPortal = false;
         rb = GetComponent<Rigidbody>();
     }
     void Start()
     {
         anim = GetComponent<Animator>();
+        speckCountText.text = $"Portal Specks : {speckCount}/{speckGoal}";
     }
 
     // Update is called once per frame
     void Update()
     {
+      
         mV = Input.GetAxis("Vertical");
 
         if (mV < 0.5f && mV > -0.5f)
@@ -108,6 +118,22 @@ public class PlayerScript : MonoBehaviour
             isShooting = true;
 
         }
+        if (nearPortal)
+        {
+            if (Input.GetKeyUp(KeyCode.F))
+            {
+                if (speckCount>=speckGoal)
+                {
+                    anim.SetBool("longSpell", true);
+                    isShooting = true;
+                }
+                else
+                {
+                    //not enough specks brh
+                }
+                
+            }
+        }
         //var emm = footprintPE.emission;
         //if (onGround)
         //{
@@ -152,6 +178,23 @@ public class PlayerScript : MonoBehaviour
 
         isShooting = false;
     }
+    public void LongSpell()
+    {
+        longSpellPE.Play();
+        portalFirePE.Play();
+    }
+    IEnumerator ExecuteAfterTime(float time)
+    {
+        yield return new WaitForSeconds(time);
+
+       
+    }
+        public void LongSpellEnd()
+    {
+        anim.SetBool("longSpell", false);
+        longSpellPE.Stop();
+        isShooting = false;
+    }
     public void JumpEvent()
     {
         print("jumped");
@@ -175,6 +218,16 @@ public class PlayerScript : MonoBehaviour
         {
             eSparkPE.Play();
         }
+        if (collision.gameObject.tag == "Speck")
+        {
+            Destroy(collision.gameObject);
+            speckCount++;
+            speckCountText.text = $"Portal Specks : {speckCount}/{speckGoal}";
+        }
+        if (collision.gameObject.tag == "Portal")
+        {
+            nearPortal = true;
+        }
 
     }
    
@@ -186,6 +239,10 @@ public class PlayerScript : MonoBehaviour
             // footprintPE.enableEmission = true;
             // footprintPE.SetActive(true);
             onGround = false;
+        }
+        if (collision.gameObject.tag == "Portal")
+        {
+            nearPortal = false;
         }
     }
 }

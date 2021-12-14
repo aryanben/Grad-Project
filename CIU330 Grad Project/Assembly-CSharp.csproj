@@ -57,19 +57,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\FireballScript.cs" />
+    <Compile Include="Assets\FurnishedCabin\Scripts\MoveableObject.cs" />
     <Compile Include="Assets\Scripts\WarrokScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\MovingPlatform.cs" />
-    <Compile Include="Assets\FurnishedCabin\Scripts\MoveableObject.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\MoveObjectController.cs" />
+    <Compile Include="Assets\Scripts\MovingPlatform.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Allegorithmic\Plugins\Substance.Engine.dll" />
     <None Include="Assets\Allegorithmic\Plugins\EULA.txt" />
+    <None Include="Assets\FurnishedCabin\UIpack\Spritesheet\blueSheet.xml" />
+    <None Include="Assets\FurnishedCabin\UIpack\Spritesheet\greenSheet.xml" />
     <None Include="Assets\Allegorithmic\Plugins\Substance.Game.dll" />
+    <None Include="Assets\FurnishedCabin\UIpack\Spritesheet\greySheet.xml" />
+    <None Include="Assets\FurnishedCabin\UIpack\license.txt" />
     <None Include="Assets\Allegorithmic\Plugins\substance_sse2_blend.dll" />
     <None Include="Assets\Allegorithmic\Plugins\engine_build_info.txt" />
+    <None Include="Assets\FurnishedCabin\UIpack\Spritesheet\redSheet.xml" />
+    <None Include="Assets\FurnishedCabin\UIpack\Spritesheet\yellowSheet.xml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -8,6 +8,7 @@ TagManager:
   - PlasmaBall
   - Ground
   - Speck
+  - Portal
   layers:
   - Default
   - TransparentFX
