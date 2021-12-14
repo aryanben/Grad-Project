@@ -7,6 +7,7 @@ TagManager:
   - FireBall
   - PlasmaBall
   - Ground
+  - Speck
   layers:
   - Default
   - TransparentFX

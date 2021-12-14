@@ -57,10 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\FireballScript.cs" />
+    <Compile Include="Assets\Scripts\WarrokScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\MovingPlatform.cs" />
-    <Compile Include="Assets\Scripts\WarrokScript.cs" />
+    <Compile Include="Assets\FurnishedCabin\Scripts\MoveableObject.cs" />
+    <Compile Include="Assets\FurnishedCabin\Scripts\MoveObjectController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Allegorithmic\Plugins\Substance.Engine.dll" />
@@ -675,13 +677,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Substance.EditorHelper.csproj">
-      <Project>{A0E0E4ED-2F09-5F29-0C6E-C115D6A33BB0}</Project>
-      <Name>Substance.EditorHelper</Name>
-    </ProjectReference>
     <ProjectReference Include="Substance.Platform.csproj">
       <Project>{842A9286-6C88-F3BD-BC6D-214017BBD91B}</Project>
       <Name>Substance.Platform</Name>
+    </ProjectReference>
+    <ProjectReference Include="Substance.EditorHelper.csproj">
+      <Project>{A0E0E4ED-2F09-5F29-0C6E-C115D6A33BB0}</Project>
+      <Name>Substance.EditorHelper</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
