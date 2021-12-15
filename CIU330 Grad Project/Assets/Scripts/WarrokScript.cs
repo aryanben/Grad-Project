@@ -11,21 +11,31 @@ public class WarrokScript : MonoBehaviour
     bool leftP;
     public float speed;
     public float activeRange;
+    public float shootRange;
     public GameObject player;
     Animator anim;
     bool attack;
+    bool healing;
+    bool isShooting;
     bool playerNear;
     bool shotReady;
     float playerNearTimer;
     public ParticleSystem fireSparks;
+    public ParticleSystem healSparks;
     public Transform spellSP;
     public GameObject spellGO;
     bool initAnim;
     public float health;
+    public float playerDmg;
+    public Transform healPoint;
+    float yCord;
     void Start()
     {
+        yCord = transform.position.y;
         leftP = true;
         attack = false;
+        healing = false;
+        isShooting = false;
         playerNear = false;
         playerNear = false;
         shotReady = false;
@@ -36,12 +46,15 @@ public class WarrokScript : MonoBehaviour
         rightV = rightPoint.position;
         player = GameObject.FindGameObjectWithTag("Player");
         anim = GetComponent<Animator>();
+        anim.SetBool("Run", false);
+        anim.SetBool("Shoot", false);
         anim.SetBool("Idle", true);
     }
 
     // Update is called once per frame
     void Update()
     {
+        transform.position.Set(transform.position.x, yCord, transform.position.z);
         //transform.LookAt(player.transform.position);
         if (Vector3.Distance(transform.position, player.transform.position) < activeRange)
         {
@@ -53,33 +66,32 @@ public class WarrokScript : MonoBehaviour
 
         }
 
-        if (playerNear)
+
+        if (health < 35 || healing)
+        {
+            SeekHeal();
+        }
+        else if (playerNear)
         {
             if (!shotReady)
             {
-                Patrol();
+
                 if (!initAnim)
                 {
-                    if (leftP)
-                    {
-                        anim.SetBool("Left", false);
-                        anim.SetBool("Right", true);
-                        anim.SetBool("Idle", false);
-                    }
-                    else
-                    {
-                        anim.SetBool("Left", true);
-                        anim.SetBool("Right", false);
-                        anim.SetBool("Idle", false);
-                    }
-                    
-                    initAnim = true;
+
+
+
                 }
             }
             else
             {
-                transform.LookAt(player.transform.position);
-                anim.SetBool("Shoot", true);
+                SeekPlayer();
+                //if (true)
+                //{
+                //    transform.LookAt(player.transform.position);
+                //    anim.SetBool("Shoot", true);
+                //}
+
             }
             playerNearTimer += Time.deltaTime;
             if (playerNearTimer > 5)
@@ -90,18 +102,80 @@ public class WarrokScript : MonoBehaviour
         }
         else
         {
-            initAnim = false;
-            anim.SetBool("Left", false);
-            anim.SetBool("Right", false);
-            anim.SetBool("Idle", true);
+            SeekHeal();
+            //initAnim = false;
+            
         }
-       
+
+    }
+    public void SeekPlayer()
+    {
+
+        if (Vector3.Distance(transform.position, player.transform.position) <= shootRange)
+        {
+            transform.LookAt(player.transform.position);
+            anim.SetBool("Shoot", true);
+            isShooting = true;
+        }
+        else
+        {
+            transform.LookAt(player.transform.position);
+            transform.position = Vector3.MoveTowards(transform.position, player.transform.position, (speed * Time.deltaTime));
+            anim.SetBool("Run", true);
+            anim.SetBool("Shoot", false);
+            anim.SetBool("Idle", false);
+        }
+
+    }
+    public void SeekHeal()
+    {
+        if (Vector3.Distance(transform.position, healPoint.position) < .3f)
+        {
+            //heal
+
+            if (health < 100)
+            {
+                if (!healSparks.isPlaying)
+                {
+                    healSparks.Play();
+                }
+
+                healing = true;
+                health += 2 * Time.deltaTime;
+
+            }
+            else if (health >= 100)
+            {
+                healing = false;
+                healSparks.Stop();
+            }
+
+        }
+        else
+        {
+
+            transform.LookAt(healPoint);
+            transform.position = Vector3.MoveTowards(transform.position, healPoint.position, (speed * Time.deltaTime));
+            anim.SetBool("Run", true);
+            anim.SetBool("Shoot", false);
+            anim.SetBool("Idle", false);
+        }
+
+
+    }
+    public void Heal()
+    {
+
+
+
     }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "FireBall")
         {
             fireSparks.Play();
+            health -= playerDmg;
+            Destroy(collision.gameObject);
         }
     }
     public void SpellInstan()
@@ -112,31 +186,14 @@ public class WarrokScript : MonoBehaviour
     public void ShotEnd()
     {
         anim.SetBool("Shoot", false);
-        shotReady = false;
+        isShooting = false;
         playerNearTimer = 0;
-        transform.rotation = Quaternion.identity;
+        //transform.rotation = Quaternion.identity;
     }
-    public void SeekPlayer() 
-    {
-    
-    
-    
-    } 
-    public void SeekHeal() 
-    {
-    
-    
-    
-    }
-    public void Heal() 
-    {
-    
-    
-    
-    }
+
     public void Patrol()
     {
-       
+
         if (leftP)
         {
             transform.position = Vector3.MoveTowards(transform.position, rightV, (speed * Time.deltaTime));

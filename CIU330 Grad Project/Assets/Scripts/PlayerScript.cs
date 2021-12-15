@@ -76,10 +76,19 @@ public class PlayerScript : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             anim.SetBool("isRunning", true);
-            if (Input.GetKeyDown(KeyCode.Space)&&onGround)
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-
-                anim.SetTrigger("Jump");
+                if (onGround)
+                {
+                    anim.SetTrigger("Jump");
+                }
+                else if (Physics.Raycast(transform.position, -Vector3.up,.1f))
+                {
+                   // onGround = true;
+                    anim.SetTrigger("Jump");
+                   
+                }
+               
             }
         }
         else
@@ -207,6 +216,20 @@ public class PlayerScript : MonoBehaviour
         Instantiate(footprintPE, footSP.position, transform.rotation);
 
     }
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            footprintPE.Play();
+            // footprintPE.enableEmission = true;
+            // footprintPE.SetActive(true);
+            onGround = false;
+        }
+        if (collision.gameObject.tag == "Portal")
+        {
+            nearPortal = false;
+        }
+    }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Ground")
@@ -241,18 +264,5 @@ public class PlayerScript : MonoBehaviour
 
     }
    
-    private void OnCollisionExit(Collision collision)
-    {
-        if (collision.gameObject.tag == "Ground")
-        {
-            footprintPE.Play();
-            // footprintPE.enableEmission = true;
-            // footprintPE.SetActive(true);
-            onGround = false;
-        }
-        if (collision.gameObject.tag == "Portal")
-        {
-            nearPortal = false;
-        }
-    }
+   
 }
