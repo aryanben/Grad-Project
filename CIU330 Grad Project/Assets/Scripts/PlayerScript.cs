@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -28,6 +29,7 @@ public class PlayerScript : MonoBehaviour
     public int speckCount;
     public int speckGoal;
     public bool nearPortal;
+  
     public Text speckCountText;
     private void Awake()
     {
@@ -74,7 +76,7 @@ public class PlayerScript : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             anim.SetBool("isRunning", true);
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space)&&onGround)
             {
 
                 anim.SetTrigger("Jump");
@@ -197,7 +199,7 @@ public class PlayerScript : MonoBehaviour
     }
     public void JumpEvent()
     {
-        print("jumped");
+        
         rb.AddForce(Vector3.up * jumpSpeed);
     }
     public void FootPrint()
@@ -227,6 +229,14 @@ public class PlayerScript : MonoBehaviour
         if (collision.gameObject.tag == "Portal")
         {
             nearPortal = true;
+        } 
+        if (collision.gameObject.tag == "PortalFire")
+        {
+            if (portalFirePE.isPlaying)
+            {
+                SceneManager.LoadScene(2);
+            }
+            
         }
 
     }

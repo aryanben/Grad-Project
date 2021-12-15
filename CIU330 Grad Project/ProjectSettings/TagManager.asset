@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - Speck
   - Portal
+  - PortalFire
   layers:
   - Default
   - TransparentFX

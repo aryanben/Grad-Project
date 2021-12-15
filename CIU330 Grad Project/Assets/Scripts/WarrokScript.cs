@@ -21,6 +21,7 @@ public class WarrokScript : MonoBehaviour
     public Transform spellSP;
     public GameObject spellGO;
     bool initAnim;
+    public float health;
     void Start()
     {
         leftP = true;
@@ -30,6 +31,7 @@ public class WarrokScript : MonoBehaviour
         shotReady = false;
         initAnim = false;
 
+        health = 100;
         leftV = leftPoint.position;
         rightV = rightPoint.position;
         player = GameObject.FindGameObjectWithTag("Player");
@@ -113,6 +115,24 @@ public class WarrokScript : MonoBehaviour
         shotReady = false;
         playerNearTimer = 0;
         transform.rotation = Quaternion.identity;
+    }
+    public void SeekPlayer() 
+    {
+    
+    
+    
+    } 
+    public void SeekHeal() 
+    {
+    
+    
+    
+    }
+    public void Heal() 
+    {
+    
+    
+    
     }
     public void Patrol()
     {
